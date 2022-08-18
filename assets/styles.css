@@ -10,6 +10,7 @@
     font-size: 50px;
     background-color: blue;
     padding: 50px;
+    text-align: center;
 
 }
 
@@ -42,9 +43,7 @@ nav a .active {
 
 .hero {
     display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto ;
     border: 5px black solid;
     width: 40%;
 }
