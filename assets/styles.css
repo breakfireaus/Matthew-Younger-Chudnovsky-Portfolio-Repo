@@ -48,3 +48,11 @@ nav a .active {
     border: 5px black solid;
     width: 40%;
 }
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+}
