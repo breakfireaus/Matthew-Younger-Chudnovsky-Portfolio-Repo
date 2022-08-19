@@ -6,9 +6,7 @@
 
 }
 
-main section {
-    flex: ;
-}
+
 
 .main-header {
     font-size: 50px;
@@ -54,7 +52,7 @@ nav .active {
 
 .pagewrapper{
     margin: 15px;
-    background-color: red;
+    background-color: green;
 }
 .row {
     display: flex;
@@ -71,18 +69,29 @@ nav .active {
 .blue-column{
     background-color: blue;
     height: 100px;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+    
 }
 
 .green-column{
     background-color: green;
     height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    word-wrap: break-word;
+    
+    
 }
 
 .ten{
     width: 10%;
 }
 .ninety{
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -104,8 +113,9 @@ footer {
 
 
 @media screen and (max-width: 992px) {
-    .side-bar {
+    body {
         display: block;
         width: auto;
+        background-color: green;
     }
 }
