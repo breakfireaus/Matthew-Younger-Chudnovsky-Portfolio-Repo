@@ -65,8 +65,6 @@ nav .active {
 
 .column {
     display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
     flex: 1;
 }
 
@@ -80,6 +78,14 @@ nav .active {
     height: 100px;
 }
 
+.ten{
+    width: 10%;
+}
+.ninety{
+    width: 90%;
+}
+
+
 
 footer {
     font-family: 'Times New Roman', Times, serif;
@@ -89,7 +95,12 @@ footer {
     text-align: right;
 }
 
+.side-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 
+}
 
 
 @media screen and (max-width: 992px) {
