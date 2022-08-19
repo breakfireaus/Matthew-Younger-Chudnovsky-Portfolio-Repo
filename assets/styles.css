@@ -35,12 +35,29 @@ nav a {
 nav a:hover {
     background-color: #ddd;
     color: black;
+    font-weight: bold;
 }
 
 
 nav .active {
     background-color: #04AA6D;
     color: white;
+    
+}
+
+#topnavgit{
+    float: 100px;
+    color: #04AA6D;
+    
+}
+
+#topnavgit:hover{
+    float: 100px;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    background-color: #04AA6D;
+    
 }
 
 .hero {
@@ -120,7 +137,24 @@ footer {
     }
 
     .ninety {
-        width: 73%;
-        border-right: solid dashed 2% yellow;
+        width: 75%;
+        
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        display: inline-block;
+        width: auto;
+        background-color: blue;
+    }
+
+    .ten {
+        width: 25%;
+
+    }
+
+    .ninety {
+        width: 75%;
+        
     }
 }
