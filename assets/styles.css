@@ -50,10 +50,11 @@ nav .active {
     width: 40%;
 }
 
-.pagewrapper{
+.pagewrapper {
     margin: 15px;
     background-color: green;
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -66,32 +67,31 @@ nav .active {
     flex: 1;
 }
 
-.blue-column{
+.blue-column {
     background-color: blue;
     height: 100px;
     text-decoration: underline;
     font-weight: bolder;
     padding-left: 20px;
     padding-top: 20px;
-    
-    
+
+
 }
 
-.green-column{
+.green-column {
     background-color: green;
-    height: 100px;
     padding-left: 20px;
-    padding-top: 20px;
     word-wrap: break-word;
-    
-    
+
+
 }
 
-.ten{
+.ten {
     width: 10%;
 }
-.ninety{
-    width: 80%;
+
+.ninety {
+    width: 90%;
 }
 
 
@@ -104,18 +104,23 @@ footer {
     text-align: right;
 }
 
-.side-bar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 
-}
 
 
 @media screen and (max-width: 992px) {
     body {
-        display: block;
+        display: inline-block;
         width: auto;
         background-color: green;
+    }
+
+    .ten {
+        width: 25%;
+
+    }
+
+    .ninety {
+        width: 73%;
+        border-right: solid dashed 2% yellow;
     }
 }
