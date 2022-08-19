@@ -6,8 +6,6 @@
 
 }
 
-
-
 .main-header {
     font-size: 50px;
     background-color: blue;
@@ -118,6 +116,7 @@ footer {
     background-color: blue;
     padding: 50px;
     text-align: right;
+border-top: black solid 10px;
 }
 
 
