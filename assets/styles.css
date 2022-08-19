@@ -6,6 +6,10 @@
 
 }
 
+main section {
+    flex: ;
+}
+
 .main-header {
     font-size: 50px;
     background-color: blue;
@@ -48,6 +52,35 @@ nav .active {
     width: 40%;
 }
 
+.pagewrapper{
+    margin: 15px;
+    background-color: red;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.blue-column{
+    background-color: blue;
+    height: 100px;
+}
+
+.green-column{
+    background-color: green;
+    height: 100px;
+}
+
+
 footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
@@ -56,60 +89,11 @@ footer {
     text-align: center;
 }
 
-.side-bar {
-    display: inline-block;
-    /* flex-direction: row; */
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
-    padding: 50px 0;
-    margin: 40px;
-    text-align: center;
-    border-right: goldenrod dashed 5px;
-    width: 40%;
-    font-weight: bold;
-    border-radius: 20px;
-}
-.information{
-    display: inline-block;
-    width: 50%;
-}
-/* .wrap {
-    display: flex;
-} */
-
-.main-text {
-    flex-direction: row;
-    padding: auto;
-    text-align: left;
-    font-weight: bold;
-}
 
 
-
-#main-text3 {
-    flex-direction: row;
-    padding: auto;
-    margin-left: 260px;
-    margin-top: -177px;
-    text-align: left;
-    width: 500px;
-    font-weight: bold;
-}
-
-
-
-.side-bar {
-    font-size: 40px;
-}
-
-.gits {
-    flex-direction: row;
-    /* margin: 500px 50px; */
-    padding: 10px;
-}
 
 @media screen and (max-width: 992px) {
-    .side-bar{
+    .side-bar {
         display: block;
         width: auto;
     }
