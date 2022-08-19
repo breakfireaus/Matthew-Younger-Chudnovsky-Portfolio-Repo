@@ -69,6 +69,10 @@ footer {
     border-radius: 20px;
 }
 
+.wrap {
+    display: flex;
+}
+
 #main-text1 {
     flex-direction: row;
     padding: auto;
@@ -100,7 +104,7 @@ footer {
 }
 
 #main-text4 {
-    
+
     padding: auto;
     margin-left: 260px;
     margin-top: -220px;
@@ -111,10 +115,16 @@ footer {
 }
 
 .side-bar {
-    font-size: 40px;}
+    font-size: 40px;
+}
 
-.gits{
+.gits {
     flex-direction: row;
     margin: 500px 50px;
     padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    body
+    {width: auto;}
 }
