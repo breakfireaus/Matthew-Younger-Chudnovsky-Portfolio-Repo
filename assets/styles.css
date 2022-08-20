@@ -98,7 +98,9 @@ nav .active {
     word-wrap: break-word;
 }
 
-
+.ten{
+    width: 10%;
+}
 
 .ninety {
     width: 90%;
@@ -106,6 +108,8 @@ nav .active {
 
 .ninety img:hover {
     opacity: .6;
+    border: black solid 10px;
+    padding: -10px;
 }
 
 footer {
