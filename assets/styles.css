@@ -166,7 +166,7 @@ input[type=submit] {
     clear: both;
 }
 
-input[type=]:focus {
+input:focus {
     background-color: darkgreen;
     border: 3px solid goldenrod;
 }
