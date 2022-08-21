@@ -148,17 +148,7 @@ input[type=submit] {
 
 }
 
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
 
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-}
 
 .formrow::after {
     content: "";
@@ -166,10 +156,16 @@ input[type=submit] {
     clear: both;
 }
 
-input [type:text]:focus {
+.formrow input {
+    width: 200px;
+    padding: 5px;
+  }
+
+input:focus {
     background-color: darkgreen;
     border: 3px solid goldenrod;
-    padding: -3px;
+    outline: none;
+
 }
 
 .image-animation{
