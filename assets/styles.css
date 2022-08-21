@@ -166,15 +166,21 @@ input[type=submit] {
     clear: both;
 }
 
-input:focus {
+input [type:text]:focus {
     background-color: darkgreen;
     border: 3px solid goldenrod;
+    padding: -3px;
+}
+
+.image-animation{
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 992px) {
     body {
         display: inline-block;
-        width: auto;
+        width: 100%;
         background-color: green;
     }
 
