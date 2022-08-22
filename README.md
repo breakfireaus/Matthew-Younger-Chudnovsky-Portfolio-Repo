@@ -32,8 +32,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://www.w3schools.com/howto/howto_css_responsive_form.asp
 https://www.w3schools.com/css/css_form.asp
 https://placeholder.com/
-Chee
-he ask BCS team
+Chee and the ASKBCS team
 
 
 

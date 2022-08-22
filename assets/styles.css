@@ -185,11 +185,20 @@ input:focus {
         width: 100%;
         background-color: green;
     }
-    
+
     main,
     nav {
       flex-direction: column;
+      display: flex
+
     }
+
+    #image-animation{
+        width: 100%;
+        height: auto;
+    }
+
+
     .ten {
         width: 25%;
 
@@ -217,5 +226,10 @@ input:focus {
     .ninety {
         width: 75%;
 
+    }
+
+    #image-animation{
+        width: 100%;
+        height: auto;
     }
 }
