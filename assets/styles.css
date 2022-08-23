@@ -154,7 +154,9 @@ input[type=submit] {
 
 }
 
-
+img {
+    max-width: 100%;
+  }
 
 .formrow::after {
     content: "";
