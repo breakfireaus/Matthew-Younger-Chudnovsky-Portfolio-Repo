@@ -212,10 +212,11 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    main {
         display: inline-block;
         width: auto;
         background-color: blue;
+        flex-direction: column;
     }
 
     .ten {
@@ -229,6 +230,7 @@ input:focus {
     }
 
     #image-animation{
+        display: inline-block;
         width: 100%;
         height: auto;
     }
