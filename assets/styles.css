@@ -79,7 +79,12 @@ nav .active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .column {
