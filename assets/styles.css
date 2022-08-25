@@ -2,25 +2,27 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-
+    color: white;
 
 }
 
-main{
-display: flex;
-flex-wrap: wrap;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9c642;
 }
 
 .main-header {
     font-size: 50px;
-    background-color: blue;
+    background-color: #f9c642;
     padding: 50px;
     text-align: center;
 
 }
 
 nav {
-    background-color: #333;
+    background-color: #212121;
+    ;
     overflow: hidden;
 
 }
@@ -29,6 +31,7 @@ nav {
 nav a {
     float: right;
     color: #f2f2f2;
+    background-color: #212121;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -65,17 +68,22 @@ nav .active {
     font-weight: bold;
 }
 
+.container {
+    background-color: #f9c642;
+    margin: 0;
+}
 
 .hero {
     display: block;
     margin: 50px auto;
     border: 5px black solid;
     width: 40%;
+    background-color: #f9c642;
 }
 
 .pagewrapper {
-    margin: 15px;
-    background-color: green;
+    margin: 15px 0px 15px 0px;
+    background-color: #212121;
 }
 
 .row {
@@ -85,7 +93,7 @@ nav .active {
     width: 100%;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-evenly;
 }
@@ -96,7 +104,7 @@ nav .active {
 }
 
 .blue-column {
-    background-color: blue;
+    background-color: #212121;
     height: 100px;
     text-decoration: underline;
     font-weight: bolder;
@@ -107,10 +115,11 @@ nav .active {
 }
 
 .green-column {
-    background-color: green;
+    background-color: #212121;
     padding-left: 20px;
+    padding-top: 20px;
     word-wrap: break-word;
-    
+
 }
 
 .ten {
@@ -119,6 +128,7 @@ nav .active {
 
 .ninety {
     width: 90%;
+    background-color: #212121;
 }
 
 .ninety img:hover {
@@ -130,7 +140,7 @@ nav .active {
 footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
-    background-color: blue;
+    background-color: #f9c642;
     padding: 50px;
     text-align: right;
     border-top: black solid 10px;
@@ -144,7 +154,11 @@ textarea {
     border: 1px solid black;
     border-radius: 4px;
     resize: vertical;
+    background-color: #f9c642;
+    text-decoration: solid;
+    font-weight: bold;
 }
+
 
 label {
     padding: 12px 12px 12px 0;
@@ -162,13 +176,15 @@ input[type=submit] {
     margin: 12px 0;
 
 }
-figure{
+
+figure {
     position: relative;
     display: flex;
     flex-direction: row;
     margin: 5px;
 }
-figcaption{
+
+figcaption {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -177,14 +193,27 @@ figcaption{
     padding: 5px;
     border-radius: 10px;
     opacity: 50%;
-    border: solid black ;
-    
+    border: solid black;
+
+}
+
+col-25 {
+    padding: 20px;
+    background-color: #212121;
 }
 
 img {
     max-width: 100%;
     border-radius: 20px;
-  }
+    background-color: #212121;
+}
+
+label {
+    padding: 20px;
+    background-color: #212121;
+    margin: 0;
+    border: 0;
+}
 
 .formrow::after {
     content: "";
@@ -195,7 +224,7 @@ img {
 .formrow input {
     width: 200px;
     padding: 5px;
-  }
+}
 
 input:focus {
     background-color: darkgreen;
@@ -204,7 +233,7 @@ input:focus {
 
 }
 
-.image-animation{
+.image-animation {
     width: 100%;
     height: auto;
 }
@@ -213,17 +242,16 @@ input:focus {
     body {
         display: inline-block;
         width: 100%;
-        background-color: green;
+
     }
 
     main,
     nav {
-      flex-direction: column;
-      display: flex
-
+        flex-direction: column;
+        display: flex
     }
 
-    #image-animation{
+    #image-animation {
         width: 100%;
         height: auto;
     }
@@ -237,6 +265,10 @@ input:focus {
     .ninety {
         width: 75%;
 
+    }
+
+    footer {
+        text-align: right;
     }
 
 }
@@ -259,9 +291,14 @@ input:focus {
 
     }
 
-    #image-animation{
+    #image-animation {
         display: inline-block;
         width: 100%;
         height: auto;
     }
+
+    footer {
+        text-align: right;
+    }
+
 }
