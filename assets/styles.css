@@ -55,6 +55,9 @@ nav .active {
 
 }
 
+
+
+
 #topnavgit:hover {
 
     background-color: #ddd;
@@ -107,6 +110,7 @@ nav .active {
     background-color: green;
     padding-left: 20px;
     word-wrap: break-word;
+    
 }
 
 .ten {
@@ -158,9 +162,28 @@ input[type=submit] {
     margin: 12px 0;
 
 }
+figure{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+figcaption{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 50%;
+    border: solid black ;
+    
+}
 
 img {
     max-width: 100%;
+    border-radius: 20px;
   }
 
 .formrow::after {
