@@ -24,7 +24,8 @@ https://breakfireaus.github.io/Matthew-Younger-Chudnovsky-Portfolio-Repo/
 
 ## Usage
 
-placeholder for my image and website screenshot
+![image](https://user-images.githubusercontent.com/108733026/186661356-525d1b22-a62b-494d-b318-e5096c21892a.png)
+
 
 ## Credits
 
