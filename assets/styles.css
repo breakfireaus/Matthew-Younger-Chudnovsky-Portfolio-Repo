@@ -188,7 +188,8 @@ figcaption {
     top: 20px;
     left: 20px;
     font-size: 30px;
-    background-color: #ddd;
+    text-decoration-color: #212121;
+    background-color: #212121;
     padding: 5px;
     border-radius: 10px;
     opacity: 50%;
